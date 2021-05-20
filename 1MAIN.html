@@ -1,0 +1,69 @@
+<html>
+<HEAD>
+<style>
+
+body {
+background-image: url("photo/background.png");
+background-size: cover;
+font-family:Cordia New;
+}
+
+#navbar ul {
+  display: none;
+  background-color: black;
+  position: absolute;
+  top: 100%;
+}
+#navbar li:hover ul { display: block; }
+#navbar, #navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar {
+  height: 30px;
+  background-color: #666;
+  padding-left: 0px;
+  min-width: 470px;
+  opacity: 0.5;
+}
+#navbar li {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+#navbar li a {
+  display: block;
+  padding: 6px;
+  width: 150px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+#navbar ul li { float: none; }
+#navbar li:hover { background-color:aqua; }
+#navbar ul li:hover { background-color: aqua;
+ }
+</style>
+</head>
+<body>
+
+	<ul id="navbar">
+  <li><a href="HOME.html"  target="f3">HOME</a></li>
+  <li><a href="NEWS.html"  target="f3">NEWS</a></li>
+  <li><a href="CHARACTERS.html" target="f3">CHARACTERS</a></li>
+  <li><a href="#"  >EXPLORE</a>
+    <ul>
+      <li><a href="#"  target="f3">ABOUT GAME</a></li>
+      <li><a href="1TEYVAT.html"  target="f3">TEYVAT</a></li>
+      <li><a href="#"  target="f3">ITINERARY</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+<iframe src="background.html" width=100% height=93% name="f3"></iframe>
+
+</body>
+</html>
